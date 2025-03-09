@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "noEmit": true,  // ✅ Disables emit in the root config
+    "strict": true,  // ✅ Enforces strict type checking
+    "skipLibCheck": true  // ✅ Speeds up compilation by skipping type checks on libraries
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": ["src"]  // ✅ Ensures TypeScript checks files inside the `src/` folder
+}
+
+
+/*
+
+{
+  "compilerOptions": {
+    "noEmit": true, // ✅ The root config can disable emit
+    "moduleResolution": "node"
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" }, 
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+
+*/

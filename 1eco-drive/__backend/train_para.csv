@@ -1,0 +1,2 @@
+,google map_boundary,map_height(km),map_wide(km),step_length(m),wide_grid_num,height_grid_num,total_point,max_train_step in episode,pre_train_step,learning_rate,Google r,Google charge num,Google SOC,Google time
+0,"{'north': 40.468277, 'east': -86.947183, 'south': 40.445974, 'west': -86.980336}",2.4799838744487155,2.805455212542383,1000,2.805455212542383,2.4799838744487155,9,36,180,0.0001,-0.015045265368803417,0,0.9,310.1
